@@ -10,6 +10,7 @@ function increment(node) {
 export function App() {
   const header = makeHeader();
   const main = makeMain();
+
   const body = document.createElement("body");
   body.append(header, main);
   const button = body.querySelector("#increment");
